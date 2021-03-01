@@ -1,0 +1,39 @@
+print('Hello, world!')
+x=123
+y=129
+if x>y:
+    print("x is greater than y")
+else:
+    print("y is greater than x")
+
+
+
+
+print("Enter a number")
+a = int(input())
+if a%2==0:
+    print("even number")
+else:
+    print("odd number")
+
+
+unit1=int(input("enter your unit1 score:"))
+unit2=int(input("enter your unit2 score:"))
+unit3=int(input("enter your unit3 score:"))
+unit4=int(input("enter your unit4 score:"))
+unit5=int(input("enter your unit5 score:"))
+#to find the average marks below
+total=float((unit1+unit2+unit3+unit4+unit5)/5)
+#where marks lie
+if (total>=70 and total <=100):
+    print("mean grade A")
+elif(total>=60 and total <=69):
+    print("mean grade B")
+elif(total>=50 and total <=59):
+    print("mean grade C")
+elif(total>=40 and total <=49):
+    print("mean grade D")
+elif(total>=0 and total <=39):
+    print("mean grade E")
+else:
+    print("your test has not been graded")    
